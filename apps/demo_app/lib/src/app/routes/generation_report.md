@@ -1,13 +1,13 @@
 # Galaxy generation report
 
-How each of the 260 generated layers was understood.
+How each of the 263 generated layers was understood.
 
 ## Decided by
 
 | Source | Layers | Share |
 |---|---:|---:|
-| name | 212 | 81.5% |
-| default | 44 | 16.9% |
+| name | 215 | 81.7% |
+| default | 44 | 16.7% |
 | rule | 4 | 1.5% |
 
 `default` means "drawn exactly as in Figma, no behaviour". That is correct for plain layout frames.
@@ -19,7 +19,7 @@ How each of the 260 generated layers was understood.
 | text | 65 |
 | icon | 51 |
 | container | 44 |
-| button | 19 |
+| button | 22 |
 | spacer | 12 |
 | image | 8 |
 | textField | 7 |

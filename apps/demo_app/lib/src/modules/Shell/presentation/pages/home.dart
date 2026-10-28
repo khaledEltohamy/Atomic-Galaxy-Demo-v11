@@ -112,27 +112,36 @@ class Home extends StatelessWidget {
                   variant: DsTextFieldVariant.defaultStyle,
                 ),
                 const SizedBox(height: 16.0),
-                Builder(
-                  builder: (context) {
-                    final apiItemN4990Items = apiProductsResponse?.data;
-                    if (apiItemN4990Items == null || apiItemN4990Items.isEmpty) return const Center(child: Text('No data available'));
-                    return ListView.builder(
-                      shrinkWrap: true,
-                      physics: const NeverScrollableScrollPhysics(),
-                      itemCount: apiItemN4990Items.length,
-                      itemBuilder: (context, index) {
-                        final ProductsResponseDataItemEntity apiItemN4990 = apiItemN4990Items[index];
-                        return DsButton(
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  child: Row(
+                    children: [
+                      DsButton(
                         label: 'All',
                         variant: DsButtonVariant.primary,
                         onPressed: () {},
-                      );
-                      },
-                    );
-
-                  },
-                )
-,
+                      ),
+                      SizedBox(width: 8.0),
+                      DsButton(
+                        label: 'Audio',
+                        variant: DsButtonVariant.secondary,
+                        onPressed: () => context.read<ProductFilterBloc>().add(FetchProductFilterEvent(request: ProductFilterRequestModel.fromValues(context.read<HomeApiFormCubit>().state, defaults: const {'category': 'audio'}))),
+                      ),
+                      SizedBox(width: 8.0),
+                      DsButton(
+                        label: 'Home',
+                        variant: DsButtonVariant.secondary,
+                        onPressed: () {},
+                      ),
+                      SizedBox(width: 8.0),
+                      DsButton(
+                        label: 'Sports',
+                        variant: DsButtonVariant.secondary,
+                        onPressed: () {},
+                      ),
+                    ],
+                  ),
+                ),
                 const SizedBox(height: 16.0),
                 Builder(
                   builder: (context) {
@@ -155,7 +164,7 @@ class Home extends StatelessWidget {
                         child: Material(
                         type: MaterialType.transparency,
                         child: InkWell(
-                          onTap: () => Navigator.of(context).pushNamed(AppRouter.productDetailsRoute),
+                          onTap: () => Navigator.of(context).pushNamed(AppRouter.productDetailsRoute, arguments: apiItemN4999),
                           borderRadius: BorderRadius.circular(RadiusTokens.radius16),
                           child: AppCard(
                         image: Image.asset(
@@ -213,7 +222,7 @@ class Home extends StatelessWidget {
                         return Material(
                         type: MaterialType.transparency,
                         child: InkWell(
-                          onTap: () => Navigator.of(context).pushNamed(AppRouter.productDetailsRoute),
+                          onTap: () => Navigator.of(context).pushNamed(AppRouter.productDetailsRoute, arguments: apiItemN49110),
                           borderRadius: BorderRadius.circular(RadiusTokens.radius16),
                           child: AppCard(
                         image: Image.asset(
