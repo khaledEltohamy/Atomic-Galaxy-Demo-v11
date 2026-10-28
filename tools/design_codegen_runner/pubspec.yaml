@@ -6,4 +6,4 @@ environment:
   sdk: ">=3.10.1 <4.0.0"
 
 dependencies:
-  design_codegen: ^0.1.20
+  design_codegen: ^0.1.22
