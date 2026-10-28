@@ -21,72 +21,81 @@ class AppRouteGenerator {
     switch (settings.name) {
       case AppRouter.onboardingRoute:
         return CupertinoPageRoute(
-          settings: const RouteSettings(
+          settings: RouteSettings(
             name: AppRouter.onboardingRoute,
+            arguments: settings.arguments,
           ),
           builder: (context) =>
               const Onboarding(),
         );
       case AppRouter.homeRoute:
         return CupertinoPageRoute(
-          settings: const RouteSettings(
+          settings: RouteSettings(
             name: AppRouter.homeRoute,
+            arguments: settings.arguments,
           ),
           builder: (context) =>
               const MainShellPage(initialIndex: 0),
         );
       case AppRouter.cartRoute:
         return CupertinoPageRoute(
-          settings: const RouteSettings(
+          settings: RouteSettings(
             name: AppRouter.cartRoute,
+            arguments: settings.arguments,
           ),
           builder: (context) =>
               const MainShellPage(initialIndex: 2),
         );
       case AppRouter.filtersRoute:
         return CupertinoPageRoute(
-          settings: const RouteSettings(
+          settings: RouteSettings(
             name: AppRouter.filtersRoute,
+            arguments: settings.arguments,
           ),
           builder: (context) =>
               const Filters(),
         );
       case AppRouter.productDetailsRoute:
         return CupertinoPageRoute(
-          settings: const RouteSettings(
+          settings: RouteSettings(
             name: AppRouter.productDetailsRoute,
+            arguments: settings.arguments,
           ),
           builder: (context) =>
               const ProductDetails(),
         );
       case AppRouter.profileRoute:
         return CupertinoPageRoute(
-          settings: const RouteSettings(
+          settings: RouteSettings(
             name: AppRouter.profileRoute,
+            arguments: settings.arguments,
           ),
           builder: (context) =>
               const MainShellPage(initialIndex: 3),
         );
       case AppRouter.loginRoute:
         return CupertinoPageRoute(
-          settings: const RouteSettings(
+          settings: RouteSettings(
             name: AppRouter.loginRoute,
+            arguments: settings.arguments,
           ),
           builder: (context) =>
               const Login(),
         );
       case AppRouter.checkoutRoute:
         return CupertinoPageRoute(
-          settings: const RouteSettings(
+          settings: RouteSettings(
             name: AppRouter.checkoutRoute,
+            arguments: settings.arguments,
           ),
           builder: (context) =>
               const Checkout(),
         );
       case AppRouter.orderPlacedRoute:
         return CupertinoPageRoute(
-          settings: const RouteSettings(
+          settings: RouteSettings(
             name: AppRouter.orderPlacedRoute,
+            arguments: settings.arguments,
           ),
           builder: (context) =>
               const OrderPlaced(),
