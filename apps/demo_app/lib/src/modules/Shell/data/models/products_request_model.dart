@@ -2,9 +2,7 @@
 import '../../domain/entities/products_request_entity.dart';
 
 class ProductsRequestModel extends ProductsRequestEntity {
-  const ProductsRequestModel({
-
-  });
+  const ProductsRequestModel();
 
   factory ProductsRequestModel.fromEntity(
     ProductsRequestEntity entity,
