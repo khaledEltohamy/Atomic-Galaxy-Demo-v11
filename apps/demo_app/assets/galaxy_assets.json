@@ -1,0 +1,339 @@
+{
+  "version": 2,
+  "assets": [
+    {
+      "imageHash": "101d9bc572ed634a27a2d93dbbd70e535899fec3",
+      "path": "sample-1-48_27.png"
+    },
+    {
+      "imageHash": "45f0066167651f6333c39e045c86457c0a69f070",
+      "path": "sample-2-48_28.png"
+    },
+    {
+      "imageHash": "82d1f46cbb6e1a5e94dbe3cbb089952428d28ced",
+      "path": "sample-3-48_29.png"
+    },
+    {
+      "imageHash": "e7b4badb4e6124057b1825fbb8c2964e7f5eab6d",
+      "path": "sample-4-48_30.png"
+    },
+    {
+      "imageHash": "a6507cb8a8d90c63805ae530979f43344b29fb00",
+      "path": "hero-48_31.png"
+    }
+  ],
+  "icons": [
+    {
+      "nodeId": "43:37",
+      "path": "icon-icon-home-43_37.svg"
+    },
+    {
+      "nodeId": "43:40",
+      "path": "icon-icon-search-43_40.svg"
+    },
+    {
+      "nodeId": "43:43",
+      "path": "icon-icon-cart-43_43.svg"
+    },
+    {
+      "nodeId": "43:46",
+      "path": "icon-icon-person-43_46.svg"
+    },
+    {
+      "nodeId": "43:49",
+      "path": "icon-icon-heart-43_49.svg"
+    },
+    {
+      "nodeId": "43:52",
+      "path": "icon-icon-back-43_52.svg"
+    },
+    {
+      "nodeId": "43:55",
+      "path": "icon-icon-star-43_55.svg"
+    },
+    {
+      "nodeId": "43:58",
+      "path": "icon-icon-plus-43_58.svg"
+    },
+    {
+      "nodeId": "43:61",
+      "path": "icon-icon-minus-43_61.svg"
+    },
+    {
+      "nodeId": "43:64",
+      "path": "icon-icon-check-43_64.svg"
+    },
+    {
+      "nodeId": "43:67",
+      "path": "icon-icon-bell-43_67.svg"
+    },
+    {
+      "nodeId": "43:70",
+      "path": "icon-icon-close-43_70.svg"
+    },
+    {
+      "nodeId": "43:73",
+      "path": "icon-icon-filter-43_73.svg"
+    },
+    {
+      "nodeId": "43:76",
+      "path": "icon-icon-location-43_76.svg"
+    },
+    {
+      "nodeId": "43:79",
+      "path": "icon-icon-chevron-43_79.svg"
+    },
+    {
+      "nodeId": "44:4",
+      "path": "icon-icon-bell-44_4.svg"
+    },
+    {
+      "nodeId": "44:6",
+      "path": "icon-icon-cart-44_6.svg"
+    },
+    {
+      "nodeId": "44:9",
+      "path": "icon-icon-back-44_9.svg"
+    },
+    {
+      "nodeId": "44:12",
+      "path": "icon-icon-heart-44_12.svg"
+    },
+    {
+      "nodeId": "44:17",
+      "path": "icon-icon-home-44_17.svg"
+    },
+    {
+      "nodeId": "44:21",
+      "path": "icon-icon-heart-44_21.svg"
+    },
+    {
+      "nodeId": "44:25",
+      "path": "icon-icon-cart-44_25.svg"
+    },
+    {
+      "nodeId": "44:29",
+      "path": "icon-icon-person-44_29.svg"
+    },
+    {
+      "nodeId": "44:34",
+      "path": "icon-icon-home-44_34.svg"
+    },
+    {
+      "nodeId": "44:38",
+      "path": "icon-icon-heart-44_38.svg"
+    },
+    {
+      "nodeId": "44:42",
+      "path": "icon-icon-cart-44_25.svg"
+    },
+    {
+      "nodeId": "44:46",
+      "path": "icon-icon-person-44_29.svg"
+    },
+    {
+      "nodeId": "44:51",
+      "path": "icon-icon-home-44_34.svg"
+    },
+    {
+      "nodeId": "44:55",
+      "path": "icon-icon-heart-44_21.svg"
+    },
+    {
+      "nodeId": "44:59",
+      "path": "icon-icon-cart-44_59.svg"
+    },
+    {
+      "nodeId": "44:63",
+      "path": "icon-icon-person-44_29.svg"
+    },
+    {
+      "nodeId": "44:68",
+      "path": "icon-icon-home-44_34.svg"
+    },
+    {
+      "nodeId": "44:72",
+      "path": "icon-icon-heart-44_21.svg"
+    },
+    {
+      "nodeId": "44:76",
+      "path": "icon-icon-cart-44_25.svg"
+    },
+    {
+      "nodeId": "44:80",
+      "path": "icon-icon-person-44_80.svg"
+    },
+    {
+      "nodeId": "47:24",
+      "path": "icon-icon-chevron-down-47_24.svg"
+    },
+    {
+      "nodeId": "47:27",
+      "path": "icon-icon-check-47_27.svg"
+    },
+    {
+      "nodeId": "47:70",
+      "path": "icon-icon-chevron-down-47_70.svg"
+    },
+    {
+      "nodeId": "47:81",
+      "path": "icon-icon-minus-47_81.svg"
+    },
+    {
+      "nodeId": "47:84",
+      "path": "icon-icon-plus-47_84.svg"
+    },
+    {
+      "nodeId": "I49:68;47:27",
+      "path": "icon-icon-check-I49_68_47_27.svg"
+    },
+    {
+      "nodeId": "I49:80;44:4",
+      "path": "icon-icon-bell-44_4.svg"
+    },
+    {
+      "nodeId": "I49:80;44:6",
+      "path": "icon-icon-cart-44_6.svg"
+    },
+    {
+      "nodeId": "I49:122;44:17",
+      "path": "icon-icon-home-44_17.svg"
+    },
+    {
+      "nodeId": "I49:122;44:21",
+      "path": "icon-icon-heart-44_21.svg"
+    },
+    {
+      "nodeId": "I49:122;44:25",
+      "path": "icon-icon-cart-44_25.svg"
+    },
+    {
+      "nodeId": "I49:122;44:29",
+      "path": "icon-icon-person-44_29.svg"
+    },
+    {
+      "nodeId": "I50:85;44:9",
+      "path": "icon-icon-back-44_9.svg"
+    },
+    {
+      "nodeId": "I50:85;44:12",
+      "path": "icon-icon-heart-44_12.svg"
+    },
+    {
+      "nodeId": "50:99",
+      "path": "icon-icon-star-50_99.svg"
+    },
+    {
+      "nodeId": "I50:124;44:9",
+      "path": "icon-icon-back-44_9.svg"
+    },
+    {
+      "nodeId": "I50:124;44:12",
+      "path": "icon-icon-heart-44_12.svg"
+    },
+    {
+      "nodeId": "I50:140;47:70",
+      "path": "icon-icon-chevron-down-I50_140_47_70.svg"
+    },
+    {
+      "nodeId": "I50:148;47:27",
+      "path": "icon-icon-check-I50_148_47_27.svg"
+    },
+    {
+      "nodeId": "I50:159;44:9",
+      "path": "icon-icon-back-44_9.svg"
+    },
+    {
+      "nodeId": "I50:159;44:12",
+      "path": "icon-icon-heart-44_12.svg"
+    },
+    {
+      "nodeId": "I50:166;47:81",
+      "path": "icon-icon-minus-I50_166_47_81.svg"
+    },
+    {
+      "nodeId": "I50:166;47:84",
+      "path": "icon-icon-plus-I50_166_47_84.svg"
+    },
+    {
+      "nodeId": "I50:177;47:81",
+      "path": "icon-icon-minus-I50_177_47_81.svg"
+    },
+    {
+      "nodeId": "I50:177;47:84",
+      "path": "icon-icon-plus-I50_177_47_84.svg"
+    },
+    {
+      "nodeId": "I50:202;44:51",
+      "path": "icon-icon-home-44_34.svg"
+    },
+    {
+      "nodeId": "I50:202;44:55",
+      "path": "icon-icon-heart-44_21.svg"
+    },
+    {
+      "nodeId": "I50:202;44:59",
+      "path": "icon-icon-cart-44_59.svg"
+    },
+    {
+      "nodeId": "I50:202;44:63",
+      "path": "icon-icon-person-44_29.svg"
+    },
+    {
+      "nodeId": "I58:158;44:9",
+      "path": "icon-icon-back-44_9.svg"
+    },
+    {
+      "nodeId": "I58:158;44:12",
+      "path": "icon-icon-heart-44_12.svg"
+    },
+    {
+      "nodeId": "I58:169;47:70",
+      "path": "icon-icon-chevron-down-47_70.svg"
+    },
+    {
+      "nodeId": "58:193",
+      "path": "icon-icon-check-58_193.svg"
+    },
+    {
+      "nodeId": "I58:203;44:4",
+      "path": "icon-icon-bell-44_4.svg"
+    },
+    {
+      "nodeId": "I58:203;44:6",
+      "path": "icon-icon-cart-44_6.svg"
+    },
+    {
+      "nodeId": "58:212",
+      "path": "icon-icon-chevron-58_212.svg"
+    },
+    {
+      "nodeId": "58:217",
+      "path": "icon-icon-chevron-58_212.svg"
+    },
+    {
+      "nodeId": "58:222",
+      "path": "icon-icon-chevron-58_212.svg"
+    },
+    {
+      "nodeId": "I58:229;47:70",
+      "path": "icon-icon-chevron-down-I58_229_47_70.svg"
+    },
+    {
+      "nodeId": "I58:236;44:68",
+      "path": "icon-icon-home-44_34.svg"
+    },
+    {
+      "nodeId": "I58:236;44:72",
+      "path": "icon-icon-heart-44_21.svg"
+    },
+    {
+      "nodeId": "I58:236;44:76",
+      "path": "icon-icon-cart-44_25.svg"
+    },
+    {
+      "nodeId": "I58:236;44:80",
+      "path": "icon-icon-person-44_80.svg"
+    }
+  ]
+}

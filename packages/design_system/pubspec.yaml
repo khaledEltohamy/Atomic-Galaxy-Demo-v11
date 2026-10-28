@@ -1,0 +1,19 @@
+name: design_system
+
+description: Galaxy generated Flutter design system.
+
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  tokens:
+    path: ../tokens
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

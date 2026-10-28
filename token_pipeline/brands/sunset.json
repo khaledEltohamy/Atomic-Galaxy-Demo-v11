@@ -1,0 +1,206 @@
+{
+  "alias": {
+    "button": {
+      "primary": {
+        "background": {
+          "$type": "color",
+          "$value": "{orange.500}",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:1:70",
+              "variableKey": "3480d91d77bd5d54df21e327e735501756aa460d",
+              "variableName": "button/primary/background",
+              "variableType": "color",
+              "collectionId": "VariableCollectionId:1:69",
+              "collectionName": "sunset",
+              "designId": null
+            }
+          }
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{orange.600}",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:1:71",
+              "variableKey": "78f103a8a9712776d7add51a0c3bfd735c66aa80",
+              "variableName": "button/primary/hover",
+              "variableType": "color",
+              "collectionId": "VariableCollectionId:1:69",
+              "collectionName": "sunset",
+              "designId": null
+            }
+          }
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": "{orange.700}",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:1:72",
+              "variableKey": "ec55069fa621cdf35b184703bf280e204a5ce144",
+              "variableName": "button/primary/pressed",
+              "variableType": "color",
+              "collectionId": "VariableCollectionId:1:69",
+              "collectionName": "sunset",
+              "designId": null
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{orange.500}",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:1:73",
+              "variableKey": "0dc99fca67066d337639d445e6ad8509a75fc3a8",
+              "variableName": "button/primary/border",
+              "variableType": "color",
+              "collectionId": "VariableCollectionId:1:69",
+              "collectionName": "sunset",
+              "designId": null
+            }
+          }
+        }
+      },
+      "tertiary": {
+        "text": {
+          "$type": "color",
+          "$value": "{orange.500}",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:1:74",
+              "variableKey": "95557a1b6366616ba7744428367b858c8c256998",
+              "variableName": "button/tertiary/text",
+              "variableType": "color",
+              "collectionId": "VariableCollectionId:1:69",
+              "collectionName": "sunset",
+              "designId": null
+            }
+          }
+        }
+      }
+    },
+    "focus": {
+      "border": {
+        "$type": "color",
+        "$value": "{orange.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:1:75",
+            "variableKey": "8de8a19b26366b88059fea3096bf941e39b56216",
+            "variableName": "focus/border",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:69",
+            "collectionName": "sunset",
+            "designId": null
+          }
+        }
+      }
+    },
+    "radio": {
+      "selected": {
+        "$type": "color",
+        "$value": "{orange.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:1:76",
+            "variableKey": "07843973033cf719eae3181f51da3141926e5a26",
+            "variableName": "radio/selected",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:69",
+            "collectionName": "sunset",
+            "designId": null
+          }
+        }
+      }
+    },
+    "navigationBar": {
+      "active": {
+        "$type": "color",
+        "$value": "{orange.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:43:30",
+            "variableKey": "59cc7cac86ac976d03f9fddee00a56ba95a55af6",
+            "variableName": "navigationBar/active",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:69",
+            "collectionName": "sunset",
+            "designId": null
+          }
+        }
+      }
+    },
+    "switch": {
+      "active": {
+        "$type": "color",
+        "$value": "{orange.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:43:31",
+            "variableKey": "6c25c7b2a147ea156034e2fc7714f2695a2b7c5a",
+            "variableName": "switch/active",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:69",
+            "collectionName": "sunset",
+            "designId": null
+          }
+        }
+      }
+    },
+    "slider": {
+      "active": {
+        "$type": "color",
+        "$value": "{orange.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:43:32",
+            "variableKey": "22cf130025f1837a79ac8e2ac8d32c1e5190662f",
+            "variableName": "slider/active",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:69",
+            "collectionName": "sunset",
+            "designId": null
+          }
+        }
+      }
+    },
+    "checkbox": {
+      "active": {
+        "$type": "color",
+        "$value": "{orange.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:43:33",
+            "variableKey": "f79d81fd91bd8aaa72a283032916e0f894876583",
+            "variableName": "checkbox/active",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:69",
+            "collectionName": "sunset",
+            "designId": null
+          }
+        }
+      }
+    },
+    "text": {
+      "accent": {
+        "$type": "color",
+        "$value": "{orange.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:43:34",
+            "variableKey": "f8199b325844ff4dd20d3d988fd2e4fa6ba2c11b",
+            "variableName": "text/accent",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:69",
+            "collectionName": "sunset",
+            "designId": null
+          }
+        }
+      }
+    }
+  },
+  "component": {},
+  "global": {}
+}

@@ -1,0 +1,206 @@
+{
+  "alias": {
+    "button": {
+      "primary": {
+        "background": {
+          "$type": "color",
+          "$value": "{blue.500}",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:1:62",
+              "variableKey": "d122512de10b669016b56b6848cc5fd6fe4c7098",
+              "variableName": "button/primary/background",
+              "variableType": "color",
+              "collectionId": "VariableCollectionId:1:61",
+              "collectionName": "ocean",
+              "designId": null
+            }
+          }
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{blue.600}",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:1:63",
+              "variableKey": "6b1d1ac60236f31582333ae63a751a6f4c22f2a8",
+              "variableName": "button/primary/hover",
+              "variableType": "color",
+              "collectionId": "VariableCollectionId:1:61",
+              "collectionName": "ocean",
+              "designId": null
+            }
+          }
+        },
+        "pressed": {
+          "$type": "color",
+          "$value": "{blue.700}",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:1:64",
+              "variableKey": "61c0b6c0cca8b8cedb54ca269b04af75be5ea4e0",
+              "variableName": "button/primary/pressed",
+              "variableType": "color",
+              "collectionId": "VariableCollectionId:1:61",
+              "collectionName": "ocean",
+              "designId": null
+            }
+          }
+        },
+        "border": {
+          "$type": "color",
+          "$value": "{blue.500}",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:1:65",
+              "variableKey": "89faaa8a6a1c42f2d4ccc73275ffb3664524bf59",
+              "variableName": "button/primary/border",
+              "variableType": "color",
+              "collectionId": "VariableCollectionId:1:61",
+              "collectionName": "ocean",
+              "designId": null
+            }
+          }
+        }
+      },
+      "tertiary": {
+        "text": {
+          "$type": "color",
+          "$value": "{blue.500}",
+          "$extensions": {
+            "figma": {
+              "variableId": "VariableID:1:66",
+              "variableKey": "4e53548d89637cd31a6f022259a131e59b5cb71b",
+              "variableName": "button/tertiary/text",
+              "variableType": "color",
+              "collectionId": "VariableCollectionId:1:61",
+              "collectionName": "ocean",
+              "designId": null
+            }
+          }
+        }
+      }
+    },
+    "focus": {
+      "border": {
+        "$type": "color",
+        "$value": "{blue.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:1:67",
+            "variableKey": "4237b80c1f12a2d5424fb3454ee1b47bf229bf0e",
+            "variableName": "focus/border",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:61",
+            "collectionName": "ocean",
+            "designId": null
+          }
+        }
+      }
+    },
+    "radio": {
+      "selected": {
+        "$type": "color",
+        "$value": "{blue.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:1:68",
+            "variableKey": "527755a864feae06cb204a7f1f9f107ece48ebfb",
+            "variableName": "radio/selected",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:61",
+            "collectionName": "ocean",
+            "designId": null
+          }
+        }
+      }
+    },
+    "navigationBar": {
+      "active": {
+        "$type": "color",
+        "$value": "{blue.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:43:25",
+            "variableKey": "c30730220c16d242bb551fa601ade4bb06832337",
+            "variableName": "navigationBar/active",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:61",
+            "collectionName": "ocean",
+            "designId": null
+          }
+        }
+      }
+    },
+    "switch": {
+      "active": {
+        "$type": "color",
+        "$value": "{blue.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:43:26",
+            "variableKey": "bdbf824eaac47f029af34c55050661e1210c13d1",
+            "variableName": "switch/active",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:61",
+            "collectionName": "ocean",
+            "designId": null
+          }
+        }
+      }
+    },
+    "slider": {
+      "active": {
+        "$type": "color",
+        "$value": "{blue.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:43:27",
+            "variableKey": "726aa5eb19663396d8b78f70300b6d120aa6529d",
+            "variableName": "slider/active",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:61",
+            "collectionName": "ocean",
+            "designId": null
+          }
+        }
+      }
+    },
+    "checkbox": {
+      "active": {
+        "$type": "color",
+        "$value": "{blue.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:43:28",
+            "variableKey": "ba29cf85f9a2c3fec0adb0465793cc8d9494a8b4",
+            "variableName": "checkbox/active",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:61",
+            "collectionName": "ocean",
+            "designId": null
+          }
+        }
+      }
+    },
+    "text": {
+      "accent": {
+        "$type": "color",
+        "$value": "{blue.500}",
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:43:29",
+            "variableKey": "e7e8c930a878d20b23cc1ece2a04c63ed8304da1",
+            "variableName": "text/accent",
+            "variableType": "color",
+            "collectionId": "VariableCollectionId:1:61",
+            "collectionName": "ocean",
+            "designId": null
+          }
+        }
+      }
+    }
+  },
+  "component": {},
+  "global": {}
+}

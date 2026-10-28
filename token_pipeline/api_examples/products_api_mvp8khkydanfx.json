@@ -1,0 +1,267 @@
+{
+  "success": true,
+  "data": [
+    {
+      "id": 1,
+      "title": "Minimal Desk Lamp",
+      "price": 29.99,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1507473885765-e6ed057f782c?w=800",
+      "desc": "A warm, minimalist lamp for desks and bedside tables.",
+      "rating": 4.6,
+      "size": "small",
+      "tags": [
+        "home",
+        "lighting",
+        "free-delivery"
+      ],
+      "badge": "bestseller",
+      "inStock": true,
+      "quantity": 24,
+      "category": "home"
+    },
+    {
+      "id": 2,
+      "title": "Everyday Ceramic Mug",
+      "price": 12.5,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1514228742587-6b1558fifc?auto=format&fit=crop&w=800",
+      "desc": "A durable ceramic mug for your daily coffee or tea.",
+      "rating": 4.3,
+      "size": "medium",
+      "tags": [
+        "home",
+        "kitchen",
+        "free-delivery"
+      ],
+      "badge": "new",
+      "inStock": true,
+      "quantity": 51,
+      "category": "home"
+    },
+    {
+      "id": 3,
+      "title": "Wireless Headphones",
+      "price": 79.99,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+      "desc": "Comfortable over-ear headphones with rich, balanced sound.",
+      "rating": 4.8,
+      "size": "medium",
+      "tags": [
+        "audio",
+        "wireless",
+        "bestseller"
+      ],
+      "badge": "bestseller",
+      "inStock": true,
+      "quantity": 12,
+      "category": "audio"
+    },
+    {
+      "id": 4,
+      "title": "Portable Bluetooth Speaker",
+      "price": 44,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800",
+      "desc": "A compact speaker made for rooms, picnics, and travel.",
+      "rating": 4.4,
+      "size": "small",
+      "tags": [
+        "audio",
+        "wireless",
+        "free-delivery"
+      ],
+      "badge": "new",
+      "inStock": true,
+      "quantity": 18,
+      "category": "audio"
+    },
+    {
+      "id": 5,
+      "title": "Training Yoga Mat",
+      "price": 34.95,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1592432678016-e910b452f9a2?w=800",
+      "desc": "A grippy, cushioned mat for stretching, yoga, and workouts.",
+      "rating": 4.5,
+      "size": "large",
+      "tags": [
+        "sports",
+        "fitness",
+        "free-delivery"
+      ],
+      "badge": "new",
+      "inStock": true,
+      "quantity": 30,
+      "category": "sports"
+    },
+    {
+      "id": 6,
+      "title": "Insulated Water Bottle",
+      "price": 21,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1602143407151-7111542de6e8?w=800",
+      "desc": "Reusable insulated bottle that keeps drinks cold or hot.",
+      "rating": 4.2,
+      "size": "medium",
+      "tags": [
+        "sports",
+        "outdoors"
+      ],
+      "badge": null,
+      "inStock": true,
+      "quantity": 0,
+      "category": "sports"
+    },
+    {
+      "id": 7,
+      "title": "Soft Throw Blanket",
+      "price": 39.5,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?w=800",
+      "desc": "A soft textured throw to make your sofa or bed cozier.",
+      "rating": 4.7,
+      "size": "large",
+      "tags": [
+        "home",
+        "decor",
+        "free-delivery"
+      ],
+      "badge": "bestseller",
+      "inStock": true,
+      "quantity": 9,
+      "category": "home"
+    },
+    {
+      "id": 8,
+      "title": "Studio Wireless Earbuds",
+      "price": 59,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1606220945770-b5b6c2c55bf1?w=800",
+      "desc": "Pocket-sized wireless earbuds for commuting and workouts.",
+      "rating": 3.9,
+      "size": "small",
+      "tags": [
+        "audio",
+        "wireless"
+      ],
+      "badge": "new",
+      "inStock": false,
+      "quantity": 0,
+      "category": "audio"
+    },
+    {
+      "id": 9,
+      "title": "Resistance Band Set",
+      "price": 18.75,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1598289431512-b97b0917affc?w=800",
+      "desc": "A versatile resistance band set for strength training at home.",
+      "rating": 4.1,
+      "size": "small",
+      "tags": [
+        "sports",
+        "fitness"
+      ],
+      "badge": null,
+      "inStock": true,
+      "quantity": 43,
+      "category": "sports"
+    },
+    {
+      "id": 10,
+      "title": "Wooden Serving Tray",
+      "price": 26,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1603199506016-b9a594b593c0?w=800",
+      "desc": "A simple wooden tray for serving drinks and snacks.",
+      "rating": 4,
+      "size": "large",
+      "tags": [
+        "home",
+        "kitchen",
+        "free-delivery"
+      ],
+      "badge": null,
+      "inStock": true,
+      "quantity": 15,
+      "category": "home"
+    },
+    {
+      "id": 11,
+      "title": "Compact Smart Speaker",
+      "price": 89,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1543512214-318c7553f230?w=800",
+      "desc": "A compact smart speaker for music and everyday listening.",
+      "rating": 4.6,
+      "size": "small",
+      "tags": [
+        "audio",
+        "smart-home",
+        "bestseller"
+      ],
+      "badge": "bestseller",
+      "inStock": true,
+      "quantity": 7,
+      "category": "audio"
+    },
+    {
+      "id": 12,
+      "title": "Gym Duffel Bag",
+      "price": 48.5,
+      "currency": "USD",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=800",
+      "desc": "A lightweight bag with room for workout essentials.",
+      "rating": 4.4,
+      "size": "large",
+      "tags": [
+        "sports",
+        "travel",
+        "free-delivery"
+      ],
+      "badge": "new",
+      "inStock": true,
+      "quantity": 21,
+      "category": "sports"
+    }
+  ],
+  "pagination": {
+    "page": 1,
+    "limit": 12,
+    "total": 12,
+    "totalPages": 1
+  },
+  "filters": {
+    "categories": [
+      "home",
+      "audio",
+      "sports"
+    ],
+    "tags": [
+      "home",
+      "lighting",
+      "free-delivery",
+      "kitchen",
+      "audio",
+      "wireless",
+      "bestseller",
+      "sports",
+      "fitness",
+      "outdoors",
+      "decor",
+      "smart-home",
+      "travel"
+    ],
+    "sizes": [
+      "small",
+      "medium",
+      "large"
+    ],
+    "badges": [
+      "new",
+      "bestseller"
+    ]
+  }
+}

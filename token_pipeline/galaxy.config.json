@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "technology": {
+    "technology": "flutter",
+    "stateManagement": "bloc",
+    "platforms": [
+      "android"
+    ]
+  },
+  "integration": {
+    "baseUrl": "https://mock-login-auth.kh-abo-eltohamy.workers.dev",
+    "baseUrlMode": "global",
+    "sectionBaseUrls": {},
+    "sectionNames": {
+      "80:218": "Auth",
+      "80:219": "Shell",
+      "80:221": "Onboarding",
+      "80:222": "Product",
+      "80:223": "Cart",
+      "80:225": "Checkout",
+      "80:226": "Profile"
+    },
+    "calls": [
+      {
+        "id": "api_mvp8khkydanfx",
+        "key": "49:79",
+        "target": {
+          "nodeId": "49:79",
+          "designId": null,
+          "name": "Home",
+          "type": "FRAME",
+          "page": "Pages",
+          "sectionId": "80:219",
+          "sectionName": "Shell"
+        },
+        "name": "products",
+        "trigger": "onLoad",
+        "method": "GET",
+        "baseUrl": "https://mock-login-auth.kh-abo-eltohamy.workers.dev",
+        "path": "/products",
+        "query": [],
+        "headers": [],
+        "bodyType": "none",
+        "body": "",
+        "responseSource": "test-response",
+        "responseExampleFile": "api_examples/products_api_mvp8khkydanfx.json"
+      },
+      {
+        "id": "api_mvp8msr9y3kp6",
+        "key": "49:93",
+        "target": {
+          "nodeId": "49:93",
+          "designId": null,
+          "name": "button-chip",
+          "type": "INSTANCE",
+          "page": "Pages",
+          "sectionId": "80:219",
+          "sectionName": "Shell"
+        },
+        "name": "product_filter",
+        "trigger": "onTap",
+        "method": "GET",
+        "baseUrl": "https://mock-login-auth.kh-abo-eltohamy.workers.dev",
+        "path": "/products",
+        "query": [
+          {
+            "key": "category",
+            "value": "audio",
+            "enabled": true
+          }
+        ],
+        "headers": [],
+        "bodyType": "none",
+        "body": "",
+        "responseSource": "none",
+        "responseExampleFile": null
+      },
+      {
+        "id": "api_mvs4wiur10sbn",
+        "key": "49:74",
+        "target": {
+          "nodeId": "49:74",
+          "designId": null,
+          "name": "Button",
+          "type": "INSTANCE",
+          "page": "Pages",
+          "sectionId": "80:218",
+          "sectionName": "Auth"
+        },
+        "name": "login",
+        "trigger": "onLoad",
+        "method": "POST",
+        "baseUrl": "https://mock-login-auth.kh-abo-eltohamy.workers.dev",
+        "path": "/login",
+        "query": [],
+        "headers": [],
+        "bodyType": "json",
+        "body": "{\n    \"email\": \"test@example.com\",\n    \"password\": \"123456\"\n  }",
+        "responseSource": "none",
+        "responseExampleFile": null
+      }
+    ]
+  }
+}

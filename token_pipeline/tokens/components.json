@@ -1,0 +1,166 @@
+{
+  "buttonComponent": {
+    "primary": {
+      "radius": {
+        "$type": "number",
+        "$value": 12,
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:1:51",
+            "variableKey": "d93fa1388eae26291c231052ae09f4d3c8004d29",
+            "variableName": "buttonComponent/primary/radius",
+            "variableType": "number",
+            "collectionId": "VariableCollectionId:1:50",
+            "collectionName": "components",
+            "designId": null
+          }
+        }
+      }
+    },
+    "secondary": {
+      "radius": {
+        "$type": "number",
+        "$value": 12,
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:1:52",
+            "variableKey": "549b5cd0ccf22da2624d925f7239e31ac5c10a4a",
+            "variableName": "buttonComponent/secondary/radius",
+            "variableType": "number",
+            "collectionId": "VariableCollectionId:1:50",
+            "collectionName": "components",
+            "designId": null
+          }
+        }
+      }
+    },
+    "tertiary": {
+      "radius": {
+        "$type": "number",
+        "$value": 12,
+        "$extensions": {
+          "figma": {
+            "variableId": "VariableID:1:53",
+            "variableKey": "bb6169243d0f93fc2a3b528c284047c5a4bc712b",
+            "variableName": "buttonComponent/tertiary/radius",
+            "variableType": "number",
+            "collectionId": "VariableCollectionId:1:50",
+            "collectionName": "components",
+            "designId": null
+          }
+        }
+      }
+    }
+  },
+  "cardComponent": {
+    "radius": {
+      "$type": "number",
+      "$value": 16,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:1:54",
+          "variableKey": "d99c3f1719a115a572c93d298aa90229cceba34d",
+          "variableName": "cardComponent/radius",
+          "variableType": "number",
+          "collectionId": "VariableCollectionId:1:50",
+          "collectionName": "components",
+          "designId": null
+        }
+      }
+    },
+    "contentPadding": {
+      "$type": "number",
+      "$value": 16,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:1:55",
+          "variableKey": "e84375ad12b4dff0fd2d5fb4506c8bcbb67c57e6",
+          "variableName": "cardComponent/contentPadding",
+          "variableType": "number",
+          "collectionId": "VariableCollectionId:1:50",
+          "collectionName": "components",
+          "designId": null
+        }
+      }
+    },
+    "imageHeight": {
+      "$type": "number",
+      "$value": 140,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:1:56",
+          "variableKey": "edde2647c13b88fafa65549aaf321a0cc454f883",
+          "variableName": "cardComponent/imageHeight",
+          "variableType": "number",
+          "collectionId": "VariableCollectionId:1:50",
+          "collectionName": "components",
+          "designId": null
+        }
+      }
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{card.border}",
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:1:60",
+          "variableKey": "3700e184fbc00097fe45539d915cd7e7a0ad7db9",
+          "variableName": "cardComponent/border",
+          "variableType": "color",
+          "collectionId": "VariableCollectionId:1:50",
+          "collectionName": "components",
+          "designId": null
+        }
+      }
+    }
+  },
+  "textfieldComponent": {
+    "radius": {
+      "$type": "number",
+      "$value": 12,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:1:57",
+          "variableKey": "918201919675700fa8e999079181e2b5d461784d",
+          "variableName": "textfieldComponent/radius",
+          "variableType": "number",
+          "collectionId": "VariableCollectionId:1:50",
+          "collectionName": "components",
+          "designId": null
+        }
+      }
+    },
+    "padding": {
+      "$type": "number",
+      "$value": 14,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:1:58",
+          "variableKey": "ba7320d96e60c486cbe78639a00ebbc1b0f12883",
+          "variableName": "textfieldComponent/padding",
+          "variableType": "number",
+          "collectionId": "VariableCollectionId:1:50",
+          "collectionName": "components",
+          "designId": null
+        }
+      }
+    }
+  },
+  "topRightButtonsComponent": {
+    "size": {
+      "$type": "number",
+      "$value": 40,
+      "$extensions": {
+        "figma": {
+          "variableId": "VariableID:1:59",
+          "variableKey": "46074f61bec21767be2d0baadf4b7b9a97312339",
+          "variableName": "topRightButtonsComponent/size",
+          "variableType": "number",
+          "collectionId": "VariableCollectionId:1:50",
+          "collectionName": "components",
+          "designId": null
+        }
+      }
+    }
+  }
+}

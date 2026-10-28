@@ -1,0 +1,11 @@
+name: demo_app_workspace
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dev_dependencies:
+  # Melos 6 reads melos.yaml. Melos 7 dropped melos.yaml (it needs a pub
+  # workspace), so `melos bootstrap` found no packages and never ran
+  # `flutter pub get`.
+  melos: ^6.3.3
