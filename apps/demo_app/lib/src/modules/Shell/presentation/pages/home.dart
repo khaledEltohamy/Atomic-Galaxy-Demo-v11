@@ -12,6 +12,7 @@ import '../state_managment/bloc/products_bloc.dart';
 import '../state_managment/cubit/home_api_form_cubit.dart';
 import '../../data/models/products_request_model.dart';
 import '../../injection/products_injection.dart';
+import '../../domain/entities/products_response_entity.dart';
 import '../state_managment/bloc/product_filter_bloc.dart';
 import '../../data/models/product_filter_request_model.dart';
 import '../../injection/product_filter_injection.dart';
@@ -170,7 +171,7 @@ class Home extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             AppText(
-                              (apiItemN4999?.title?.toString() ?? 'Headphones'),
+                              (apiItemN4999.title?.toString() ?? 'Headphones'),
                               style: TextStyle(color: context.ds.textPrimary, fontFamily: 'Inter', fontSize: 18.0, fontWeight: FontWeight.w600),
                               textAlign: TextAlign.left,
                             ),
@@ -228,7 +229,7 @@ class Home extends StatelessWidget {
                           mainAxisSize: MainAxisSize.min,
                           children: [
                             AppText(
-                              (apiItemN49110?.title?.toString() ?? 'Backpack'),
+                              (apiItemN49110.title?.toString() ?? 'Backpack'),
                               style: TextStyle(color: context.ds.textPrimary, fontFamily: 'Inter', fontSize: 18.0, fontWeight: FontWeight.w600),
                               textAlign: TextAlign.left,
                             ),
